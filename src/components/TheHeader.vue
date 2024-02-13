@@ -9,7 +9,6 @@ const count = ref(0)
 </template>
 
 
-
 <style>
 .text-center{
   background-color: blueviolet;
