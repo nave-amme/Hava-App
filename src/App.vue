@@ -1,30 +1,37 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+ <script setup>
+//import HelloWorld from './components/HelloWorld.vue'
+//import TheWelcome from './components/TheWelcome.vue'
+import header from './components/TheHeader.vue'
+import TheHeader from './components/TheHeader.vue';
 
-console.log('salam')
 </script>
 
 <template>
-  <header>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
+  <!-- <header class="bg:red">
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     This is a blackboard
-    <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
+  </header> -->
+  <!-- <div class="wrapper">
+       <HelloWorld msg="You did it!" />
     </div>
-  </header>
-
+    <welcome-item/> -->
   <main>
-    <TheWelcome />
-    <div>hiii</div>
+    <p class="text-red-500, font-bold, bg-orange-600">salam osta</p>
+    <TheHeader/>
   </main>
 </template>
 
+
+
+
 <style scoped>
+#app{
+  background-color: aquamarine;
+}
 header {
   line-height: 1.5;
-}
 
+}
 .logo {
   display: block;
   margin: 0 auto 2rem;
@@ -45,6 +52,7 @@ header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    top: 100em;
   }
 }
 </style>

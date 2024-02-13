@@ -1,3 +1,4 @@
+/* اینجا جاییه که به کل ویو استایل میدی */
 @import './base.css';
 
 #app {
@@ -5,6 +6,7 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  background-color:red;
 }
 
 a,
