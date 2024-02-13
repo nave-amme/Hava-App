@@ -16,7 +16,7 @@ import TheHeader from './components/TheHeader.vue';
     </div>
     <welcome-item/> -->
   <main>
-    <p class="text-red-500, font-bold, bg-orange-600">salam osta</p>
+    <p class="text-red-500, font-bold, bg-blue">salam osta</p>
     <TheHeader/>
   </main>
 </template>
