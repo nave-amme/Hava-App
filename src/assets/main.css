@@ -1,13 +1,16 @@
-/* اینجا جاییه که به کل ویو استایل میدی */
+*{
+  /* background-color:#111015; */
+}
+/* اینجا جاییه که به کل ویو استایل میدی
 @import './base.css';
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
   background-color:red;
-}
+} 
 
 
 a,
@@ -35,4 +38,4 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}
+} */
